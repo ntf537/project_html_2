@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  max-width: 1180px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.higher-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.questions-consultations {
+  display: flex;
+  gap: 45px;
+}
+
+.nav-list1 {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.list-text1 {
+  text-decoration: none;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #333;
+}
+
+.recall-text {
+  text-decoration: none;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #607ce6;
+}
+.recall {
+  display: flex;
+}
+
+.text-header {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: right;
+  color: #333;
+}
+
+.email-phone {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-align: right;
+  color: #607ce6;
+}
+
+.container {
+  max-width: 1180px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.russian-factory {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-1 {
+  align-self: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #333;
+}
+
+.img-1 {
+  height: 440px;
+}
+
+.heading-1 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120%;
+  color: #333;
+}
+
+.text-2 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #333;
+}
+
+.first-half-img,
+.second-half-img {
+  height: 280px;
+  max-width: 580px;
+}
+
+.halfs {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.first-half,
+.second-half {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.product-1,
+.product-2,
+.product-3,
+.product-4,
+.product-5,
+.product-6 {
+  background-image: url(bg.png);
+  width: 380px;
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.p1-3,
+.p2-3,
+.p3-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.pr {
+  width: 200px;
+  max-height: 194px;
+}
+
+.text-3 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+  color: #333;
+}
+
+.detailed {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #607ce6;
+  text-decoration: none;
+}
+
+.text-4 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #333;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.read-next {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #607ce6;
+  text-decoration: none;
+}
+
+.date {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #888;
+}
+
+.news-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.half-news {
+  background-image: url(bg.png);
+  max-width: 380px;
+  height: 227px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lower-news {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.news-img {
+  height: 251px;
+  width: 380px;
+}
+
+.all-news {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+footer {
+  background-color: #333;
+  height: 361px;
+}
+
+.logo-2 {
+  width: 180px;
+  height: 38px;
+}
+
+.higher-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.list-text2 {
+  text-decoration: none;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #fff;
+}
+.nav-list-f-1,
+.nav-list-f-2,
+.nav-list-f-3 {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lower-footer-text {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #fff;
+}
+
+.container-footer {
+  max-width: 1180px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 60px;
+  gap: 115px;
+}
+
+.lower-footer {
+  align-self: center;
+}
+
+@media (max-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .higher-header {
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .questions-consultations {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+  .nav-list1 {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .heading-1 {
+    font-size: 50px;
+  }
+  .russian-factory {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .container {
+    margin: 20px auto;
+    max-width: 310px;
+  }
+
+  .heading-1 {
+    font-size: 45px;
+  }
+
+  .text-3 {
+    font-size: 23px;
+  }
+  .first-half {
+    max-width: 305px;
+  }
+
+  .halfs {
+    display: flex;
+    flex-direction: column;
+  }
+  .all-news {
+    flex-direction: column;
+  }
+
+  .news-img {
+    max-width: 310px;
+  }
+
+  .products {
+    flex-direction: column;
+  }
+
+  .product-1,
+  .product-2,
+  .product-3,
+  .product-4,
+  .product-5,
+  .product-6 {
+    max-width: 310px;
+  }
+
+  .logo {
+    max-width: 310px;
+    margin: 0 auto;
+  }
+
+  .footer-menu {
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 15px;
+  }
+
+  .higher-footer {
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  footer {
+    height: 650px;
+  }
+
+  .container-footer {
+    max-width: 310px;
+    margin: 0 auto;
+  }
+
+  .img-1 {
+    height: 300px;
+  }
+}
